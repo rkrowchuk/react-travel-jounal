@@ -6,10 +6,11 @@ import Location from './Components/Location';
 function App() {
   const places = data.map(place => {
     return (
+      <div key={place.id}>
       <Location
-      key={place.id}
       location={place}
       />
+      </div>
     )
   })
   return (
