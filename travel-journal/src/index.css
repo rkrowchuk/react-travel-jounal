@@ -5,6 +5,33 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
+  color: #2B283A;
+}
+
+p {
+  font-size: 10.24px;
+  line-height: 15.36px;;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h4 {
+  font-size: 10.24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: .17em;
+  margin-top: 10px;
+}
+
+a {
+  font-size: 10.24px;
+  color: #918E9B;
+  margin-left: 10px;
+  margin-top: -5px;
 }
 
 .container {
@@ -19,4 +46,37 @@ body {
   align-items: center;
   justify-content: center;
   height: 55px;
+}
+
+.location-list {
+  padding: 40px;
+}
+
+.location-card {
+  display: flex;
+  border-bottom: 1px solid #F5F5F5;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.location-card-left {
+  width: 125px;
+  height: 168px;
+}
+
+.location-card-right {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.location-card-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
 }
